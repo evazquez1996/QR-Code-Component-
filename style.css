@@ -1,5 +1,5 @@
 body{
-    background-color: antiquewhite;
+    background-color: hsl(212, 45%, 89%);
     
 }
 
@@ -8,30 +8,37 @@ padding: 10px 0;
 text-align: center;
 margin: 10% 40%;
 border-radius: 10px;
-background: aliceblue;
-width: auto;
-height: auto;
+background: hsl(0, 0%, 100%);
 }
 
 .container img{
-    margin-left: 3%;
-    margin-top: 3%;
-    margin-right: 3%;
     border-radius: 10px;
-    
+    width: 100%;
 }
 
 .img-text {
-    margin: 10% 10%;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    padding: auto;
+
 }
 
 .img-text p {
     font-size: 15px;
     font-family:'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+.img-text h5 {
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
 }
 
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
 }
 
 .attribution a { 
