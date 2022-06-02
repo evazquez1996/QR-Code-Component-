@@ -1,28 +1,41 @@
-body{
-    background-color: hsl(212, 45%, 89%);
-    
-}
-/*
-                OLGA hi :)
-fix margins / padding on container & fix sizing of img (.container img) 
-*/
-
-.container{
-padding: 10px 0;
-text-align: center;
-margin: 10% 40%;
-border-radius: 10px;
-background: hsl(0, 0%, 100%);
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.container img{
-    border-radius: 10px;
+body {
+    background-color: #8AAAE5;
+
+}
+
+section {
+    min-height: 100vh;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+
+    padding: 10px 0;
+    text-align: center;
+    margin: 0% 41%;
+    border-radius: 10px;
+    background: hsl(0, 0%, 100%);
+}
+
+
+.container img {
+    border-radius: 15px;
+    width: 92%;
 }
 
 .img-text {
     margin: auto;
-    display:flex;
+    display: flex;
     flex-direction: column;
     padding: auto;
 
@@ -30,21 +43,21 @@ background: hsl(0, 0%, 100%);
 
 .img-text p {
     font-size: 15px;
-    font-family:'Outfit', sans-serif;
-    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
 }
 
-.img-text h5 {
+.img-text h4 {
     font-weight: 700;
     font-size: 15px;
     font-family: 'Outfit', sans-serif;
 }
 
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
+.attribution {
+    font-size: 11px;
+    text-align: center;
 }
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
