@@ -2,10 +2,6 @@ body{
     background-color: hsl(212, 45%, 89%);
     
 }
-/*
-                OLGA hi :)
-fix margins / padding on container & fix sizing of img (.container img) 
-*/
 
 .container{
 padding: 10px 0;
